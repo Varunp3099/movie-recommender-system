@@ -68,4 +68,15 @@ Given a movie name:
 - Retrieve top 5 movies with the highest cosine similarity (excluding itself)
 - Return titles of those similar movies
 
-
+## Folder Strucure
+movie_recommender_system/
+│
+├── static/
+│   └── style.css               # Styling for frontend
+│
+├── templates/
+│   └── index.html              # UI layout for movie input and output
+│
+├── app.py                      # Flask app with routing and recommendation logic
+│
+├── movie_recommender.ipynb     # Notebook for data preprocessing, NLP pipeline, and pickle file generation
